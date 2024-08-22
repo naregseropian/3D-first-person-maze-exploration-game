@@ -1,7 +1,8 @@
 ### Objective
 
 Develop a 3D first-person maze exploration game using ray-casting techniques, inspired by the iconic Wolfenstein 3D. The project involves creating a dynamic, realistic 3D representation of a maze, with a focus on C programming and graphic rendering using the miniLibX library.
-Project Requirements
+
+### Project Requirements
 
 - **Language**: C
 - **Libraries**: miniLibX, Math Library (-lm)
@@ -19,8 +20,4 @@ Project Requirements
 
 ### Implementation
 
-The game reads a scene description file in .cub format, which includes the maze layout and texture paths. Ray-casting is used to render a first-person perspective of the maze, with real-time interaction and smooth graphics handling achieved through miniLibX. Proper memory management and adherence to coding norms ensure stability and performance.
-
-### Additional Considerations
-
-Testing was conducted to ensure robust performance and compliance with 42 School norms. Optional features were implemented in separate bonus files, evaluated independently.
+The program reads a scene description file in .cub format, which includes the maze layout and texture paths. Ray-casting is used to render a first-person perspective of the maze, with real-time interaction and smooth graphics handling achieved through miniLibX. Proper memory management and adherence to coding norms ensure stability and performance.
